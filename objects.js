@@ -1,5 +1,5 @@
 var playlist = {artistname:'song'}
-function updatePlaylist(playlist, artistName, songTitle) {return playlist[artistName] = 'songTitle'; return playlist}
+function updatePlaylist(playlist, artistName, songTitle) {return playlist[artistName] = 'songTitle';}
 
 //accepts three parameters - playlist an object;artist name a string; and a song title.
 //body of function adds song and artist as key value pair to playlist object.
